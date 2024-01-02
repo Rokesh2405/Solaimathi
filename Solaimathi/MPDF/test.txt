@@ -1,0 +1,75 @@
+<div style="border: 1px;">
+<table style="width:100%; font-family:arial; font-size:15px;" cellpadding="0" cellspacing="0">
+              <tr>
+                   <td style="width:100%; text-align:center;"><h2 style="color:#285D6B;"> Register Details</h2></td>
+             </tr>
+              <tr>
+             <td colspan="4"><hr></td>
+             </tr>
+              </table>
+              <br><br>
+<table style="font-family:arial; font-size:15px;" cellpadding="0" cellspacing="0" width="100%">
+              <tr>
+                   <td style="width:25%;"><strong>Name :</strong></td>
+				 <td style="width:25%;">test</td>
+				 <td style="width:25%;"><strong>Mobile no :</strong></td>
+				 <td style="width:25%;">845258587</td>
+				 
+             </tr>
+             <tr>
+             <td colspan="4">&nbsp;</td>
+             </tr>
+             <tr>
+                   <td style="width:25%;"><strong>Email :</strong></td>
+				 <td style="width:25%;">test@gmail.com</td>
+				 <td style="width:25%;"><strong>Address :</strong></td>
+				 <td style="width:25%;">Madurai</td>
+				 
+             </tr>
+			   <tr>
+             <td colspan="4">&nbsp;</td>
+             </tr>
+             <tr>
+                   <td style="width:25%;"><strong>Token :</strong></td>
+				 <td style="width:25%;">74eea8d9e4b5f30cc0a0bbd0ee7b6b2b</td>
+				 <td style="width:25%;"><strong>Device Key :</strong></td>
+				 <td style="width:25%;">845</td>
+				 
+             </tr>
+			<tr>
+             <td colspan="4">&nbsp;</td>
+             </tr>
+             <tr>
+                   <td style="width:25%;"><strong>Password :</strong></td>
+				 <td style="width:25%;">1234</td>
+				 <td style="width:25%;"><strong>Confirm Password :</strong></td>
+				 <td style="width:25%;">1234</td>
+				 
+             </tr>
+             	<tr>
+             <td colspan="4">&nbsp;</td>
+             </tr>
+             <tr>
+                   <td style="width:25%;"><strong>Country :</strong></td>
+				 <td style="width:25%;">India</td>
+				 <td style="width:25%;"><strong>State :</strong></td>
+				 <td style="width:25%;">Tamil ANdu</td>
+				 
+             </tr>
+             	<tr>
+             <td colspan="4">&nbsp;</td>
+             </tr>
+             <tr>
+                   <td style="width:25%;"><strong>District :</strong></td>
+				 <td style="width:25%;">Madurai</td>
+				 <td style="width:25%;"><strong>Status :</strong></td>
+				 <td style="width:25%;">1</td>
+				 
+             </tr>
+             	<tr>
+             <td colspan="4">&nbsp;</td>
+             </tr>
+            </table>
+              <br>
+			  
+			  </div>

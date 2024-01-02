@@ -1,0 +1,81 @@
+FileETag None
+# END Turn ETags Off
+
+Options +FollowSymlinks
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine on
+RewriteCond %{SERVER_PORT} 80 
+RewriteCond %{HTTP_HOST} !^www\.
+
+#RewriteCond %{HTTP_HOST} ^api.savemom\.in [NC]
+
+#RewriteRule ^(.*)$ https://geomeoinformatics.com/namkaval/api/$1 [R,L]
+
+#RewriteCond %{HTTP_HOST} ^http://jiovio.com\.com [NC]
+
+#RewriteCond %{HTTP_HOST} ^https://webtoall.in [NC]
+
+#RewriteRule ^(.*)$ http://maduraiscrap.com/appadmin/api/$1 [R,L]
+
+
+RewriteRule ^login user/login.php [L,QSA]
+
+RewriteRule ^login user/login.php [L,QSA]
+
+RewriteRule ^signup user/signup.php [L,QSA]
+
+RewriteRule ^switch_account user/switch_account.php [L,QSA]
+
+RewriteRule ^attendance_report user/attendance_report.php [L,QSA]
+
+RewriteRule ^student_report user/student_report.php [L,QSA]
+
+RewriteRule ^assessment_list user/assessment_list.php [L,QSA]
+
+RewriteRule ^task_report user/task_report.php [L,QSA]
+
+RewriteRule ^payment_report user/payment_report.php [L,QSA]
+
+RewriteRule ^getstudent_profile user/getstudent_profile.php [L,QSA]
+
+RewriteRule ^student_attendance user/student_attendance.php [L,QSA]
+
+RewriteRule ^student_dashboard user/student_dashboard.php [L,QSA]
+
+RewriteRule ^student_task user/student_task.php [L,QSA]
+
+RewriteRule ^addtask user/addtask.php [L,QSA]
+
+RewriteRule ^update_task user/update_task.php [L,QSA]
+
+RewriteRule ^coach_count user/coach_count.php [L,QSA]
+
+RewriteRule ^apply_acedemy user/apply_acedemy.php [L,QSA]
+
+RewriteRule ^forgot_password user/forgot_password.php [L,QSA]
+
+RewriteRule ^addcoach_payment user/addcoach_payment.php [L,QSA]
+
+RewriteRule ^addstudent_attendance user/addstudent_attendance.php [L,QSA]
+
+RewriteRule ^sattendancelist user/student_attendancelist.php [L,QSA]
+
+RewriteRule ^banner common/banner.php [L,QSA]
+
+RewriteRule ^updatestudent_profile user/updatestudent_profile.php [L,QSA]
+
+RewriteRule ^change_password user/change_password.php [L,QSA]
+
+RewriteRule ^editprofile user/editprofile.php [L,QSA]
+
+RewriteRule ^acedemy user/acedemy.php [L,QSA]
+
+RewriteRule ^ac_details user/acedemy_details.php [L,QSA]
+
+RewriteRule ^category common/category.php [L,QSA]
+
+
+RewriteCond %{THE_REQUEST} !^POST
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
